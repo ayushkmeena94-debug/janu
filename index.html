@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Be My Anniversary Date ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="center">
+<img src="hug.png" class="hug">
+
+<h1>Will you be my First Anniversary Date? ❤️</h1>
+<p>I have something special for you...</p>
+
+<button onclick="location.href='start.html'">YES 💖</button>
+<button id="noBtn">NO 😈</button>
+
+</div>
+
+<script>
+let noBtn = document.getElementById("noBtn");
+noBtn.onclick = function(){
+noBtn.style.position = "absolute";
+noBtn.style.left = Math.random()*80 + "vw";
+noBtn.style.top = Math.random()*80 + "vh";
+};
+</script>
+
+</body>
+</html>
