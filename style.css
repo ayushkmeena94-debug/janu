@@ -1,0 +1,81 @@
+body{
+margin:0;
+font-family:cursive;
+background:red;
+color:white;
+text-align:center;
+}
+
+/* Center pages */
+.center{
+margin-top:80px;
+}
+
+/* Hug animation */
+.hug{
+width:200px;
+animation:hug 2s infinite alternate;
+}
+@keyframes hug{
+from{transform:scale(1);}
+to{transform:scale(1.05);}
+}
+
+/* Letter notebook style */
+.letter{
+background:#fffdf8;
+color:black;
+width:80%;
+max-width:500px;
+margin:50px auto;
+padding:25px;
+font-size:22px;
+line-height:1.6;
+border-radius:10px;
+box-shadow:0 10px 25px black;
+background-image: repeating-linear-gradient(
+  #fffdf8,
+  #fffdf8 24px,
+  #d8cfc4 25px
+);
+}
+
+/* Navigation buttons */
+.nav{
+text-align:center;
+margin-top:20px;
+}
+
+/* Buttons */
+button{
+padding:12px 22px;
+font-size:16px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+margin:10px;
+background:#ff4d6d;
+color:white;
+}
+button:hover{
+background:black;
+}
+
+/* Gifts */
+.gift{
+background:skyblue;
+padding:20px;
+margin:10px;
+display:inline-block;
+border-radius:10px;
+font-size:18px;
+border:2px solid white;
+}
+
+/* Photos */
+.photo{
+width:200px;
+margin:10px;
+border-radius:10px;
+box-shadow:0 0 10px black;
+}
